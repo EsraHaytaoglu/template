@@ -1,4 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900");
+/** VARIABLES  **/
+/** GENERAL SETTINGS **/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
-  background-color: orange;
+  font-family: "Pirata One", cursive;
+  color: #9f9f9f;
+  background-color: #FEFEFE;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Inconsolata", monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/** TOP HEADER **/
+.top-header {
+  border-bottom: 1px solid orangered;
+}
+
+.top-header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top-header .container .logo h1 {
+  font-size: 5rem;
+  font-family: "Pirata One", cursive;
+  color: orangered;
+}
+
+.top-header .container .top-socail-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-header .container .top-socail-menu li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.top-header .container .top-socail-menu li a {
+  font-size: 2rem;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.top-header .container .top-socail-menu li:hover a {
+  color: orangered;
+}
+
+.top-header .container .login-area span {
+  display: none;
 }
 /*# sourceMappingURL=styles.css.map */
