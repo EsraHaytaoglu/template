@@ -1,1 +1,1 @@
-# teplate
+# Template Örneği
